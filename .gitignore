@@ -112,6 +112,7 @@ venv.bak/
 .DS_Store
 .vscode
 /pyproject.toml
+/poetry.lock
 
 # Spyder project settings
 .spyderproject
