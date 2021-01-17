@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "vscode_python3.8.2_env"
+version = "0.1.0"
+description = "VSCode library for Python 3.8.2."
+authors = ["yucharotaro <yucharotaro@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+yapf = "^0.30.0"
+yapf-isort = "^0.5.5"
+pytest = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
