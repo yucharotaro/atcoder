@@ -1,4 +1,3 @@
-
 import sys
 from itertools import islice
 from collections import defaultdict
@@ -16,7 +15,6 @@ def _solve(N, C, query):
         day0 = day1
 
     return ans
-
 
 
 def solve(in_):

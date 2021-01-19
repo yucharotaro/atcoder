@@ -12,6 +12,7 @@ def solve(in_):
     B = list(map(int, next(in_).split()))
     return _solve(N, A, B)
 
+
 def main():
     answer = solve(sys.stdin.buffer)
     print('Yes' if answer else 'No')

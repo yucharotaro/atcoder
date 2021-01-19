@@ -1,14 +1,16 @@
 from sys import stdin
 
+
 def match(new_player_list):
     new_list = []
     loser = -1
-    for match in zip(*[iter(new_player_list)]*2):
+    for match in zip(*[iter(new_player_list)] * 2):
         winner = max(match)
         loser = min(match)
         new_list.append(winner)
 
     return loser, new_list
+
 
 if __name__ == "__main__":
 
