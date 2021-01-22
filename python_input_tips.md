@@ -224,3 +224,12 @@ print(list(zip(*list_matrix)))
 # 出力
 [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
 ```
+
+## 数値を各桁ごとに扱う
+
+```python:Python
+a = int(input())
+
+# 各桁の総和
+print(sum(map(int, str(a))))
+```
