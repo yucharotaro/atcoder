@@ -228,8 +228,21 @@ print(list(zip(*list_matrix)))
 ## 数値を各桁ごとに扱う
 
 ```python:Python
-a = int(input())
+n = int(input())
 
 # 各桁の総和
-print(sum(map(int, str(a))))
+print(sum(map(int, str(n))))
+```
+
+または以下。
+
+```python:Python
+n = int(input())
+
+# 各桁の総和
+ans = 0
+while n > 0:
+    ans += n % 10
+    n //= 10
+print(ans)
 ```
