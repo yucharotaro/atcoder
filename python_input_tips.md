@@ -176,6 +176,12 @@ n = int(input())  # nは入力回数
 num_list = [list(map(int, input().split())) for _ in range(n)]
 ```
 
+n行の入力をワンライナーで全て変数に代入したい場合。
+
+```python:Python
+a, b, c, d = map(int, open(0).read().split())
+```
+
 ## 特定の文字列まで読み込み続ける
 
 ```python:Python
