@@ -39,6 +39,15 @@ n = int(input())  # nはint型
 
 ```python:Python
 # 入力
+abc
+```
+
+```python:Python
+a,b,c = map(str, input())  # 1個の文字列の入力を受け取って、1文字ずつ変数に格納
+```
+
+```python:Python
+# 入力
 abc def ghi
 ```
 
@@ -53,6 +62,15 @@ str_list = list(input().split())  # n個の文字列をリストに格納
 ```
 
 ## 【1行】n数字
+
+```python:Python
+# 入力
+123
+```
+
+```python:Python
+a,b,c = map(int, input())  # 1個の数字の入力を受け取って、1桁ずつ変数に格納
+```
 
 ```python:Python
 # 入力
