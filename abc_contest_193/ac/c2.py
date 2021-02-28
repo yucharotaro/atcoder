@@ -1,12 +1,13 @@
 N = int(input())
 
-cnt = 0
+ans = []
 for i in range(2, N):
+    if i**2 > N:
+        break
     for j in range(2, N):
         if i**j > N:
             break
-        print(i**j)
-        cnt += 1
-    print(f"cnt={cnt}")
+        ans.append(i**j)
 
-print(N - cnt)
+ans = list(set(ans))
+print(N - len(ans))
