@@ -200,6 +200,16 @@ n行の入力をワンライナーで全て変数に代入したい場合。
 a, b, c, d = map(int, open(0).read().split())
 ```
 
+n行n数字の入力を個別に変数に代入したい場合。
+
+```python:Python
+n = int(input())
+a = [0 for i in range(n)]
+b = [0 for i in range(n)]
+for i in range(n):
+    a[i], b[i] = map(int, input().split())
+```
+
 ## 特定の文字列まで読み込み続ける
 
 ```python:Python
