@@ -1,0 +1,6 @@
+q, h, s, d = map(int, input().split())
+n = int(input())
+h = min(h, 2 * q)
+s = min(s, 2 * h)
+d = min(d, 2 * s)
+print(d * (n // 2) + s * (n % 2))
