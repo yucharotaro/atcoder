@@ -6,7 +6,7 @@ for i, s in enumerate(S):
     elif s == '?':
         hate.append(i)
 
-if len(maru) > 4 or (len(maru) == 0 and len(hate) == 0):
+if len(maru) > 4 or (len(maru) + len(hate) < 1):
     print(0)
 elif len(maru) == 4:
     print(4 * 3 * 2 * 1)
